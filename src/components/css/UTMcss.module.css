@@ -1,0 +1,12 @@
+.bold {
+
+    font-weight: 700;
+
+}
+
+.required {
+
+    color: #f00;
+    font-weight: 700;
+
+}
