@@ -1,21 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import UTM from './components/UTM';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import './css/UTMGeneratorTable.css';
+import UTMGeneratorTable from './components/UTMGeneratorTable.js';
+import UTMOutputBox from './components/UTMOutputBox.js';
+import utminfo from './components/UTMFields.js';
 
 function App() {
   return (
-    <>
-    <Header />
     <div className="App">
-
-      <UTM />
-
+      <header className="App-header">
+        <UTMGeneratorTable />
+        <UTMOutputBox />
+      </header>
     </div>
-    <Footer />
-
-    </>
   );
 }
 
